@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome to my About Me Page</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="This website is created for the purpose of my ECI 519 class." />
+		<meta name="Meredith" content="Company/Name: Meredith" />
+	</head>
+	<body>
+    <main>
+      <h2> About Me</h2> 
+    <p>
+  My name is Meredith Leonard, and this is my last semester in my M.Ed graduate degree in Learning Design and Technology. I started my graduate degree in Summer 1 of 2021. I started immediately after graduating with my undergraduate in Elementary Education with Concentrations in Behavioral Studies and Language Arts. I am enjoying all that I am learning in my program. I look forward to applying it in my graduate program to my classroom and future endeavors. Below are some facts about me. 
+    </p>
+  <p>
+  <ul>
+    <li>I am a first year teacher, and I teach 3rd grade.</li>
+    <ul>
+      <li>I teach at the school that I graduated from.</li>
+    </ul>
+    <li>I am graduating in May of 2022.</li>
+    <li>I have a Cavapoo puppy who is one year old.</li>
+    <ul>
+      <li> <img src="Picture of Oakley.jpeg" </img></li>
+    </ul>    
+    <li>I love to go shopping online and in store after school and on the weekends.</li>
+  </p>
