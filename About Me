@@ -23,7 +23,10 @@
     <li>I am graduating in May of 2022.</li>
     <li>I have a Cavapoo puppy who is one year old.</li>
     <ul>
-      <li> <img src="Picture of Oakley.jpeg" alt="Picture of Cavapoo puppy" style="width 250px; height: auto;"> </li>
+      <li> <img src="Picture of Oakley.jpeg" alt="Picture of Cavapoo puppy" style="width 300px; height: auto;"> </li>
     </ul>    
     <li>I love to go shopping online and in store after school and on the weekends.</li>
   </p>
+</main>
+</body>
+</html>
