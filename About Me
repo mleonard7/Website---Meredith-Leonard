@@ -21,11 +21,11 @@
       <li>I teach at the school that I graduated from.</li>
     </ul>
     <li>I am graduating in May of 2022.</li>
-    <li>I have a Cavapoo puppy who is one year old.</li>
-    <ul>
-      <li> <img src="Picture of Oakley.jpeg" alt="Picture of Cavapoo puppy" style="width 300px; height: auto;"> </li>
-    </ul>    
+    <li>I have a Cavapoo puppy who is one year old.</li>   
     <li>I love to go shopping online and in store after school and on the weekends.</li>
+  </p>
+  <p> 
+    <img src="Picture of Oakley.jpeg" alt="Picture of Cavapoo puppy" style="width: 300 px; width: auto;" ">
   </p>
 </main>
 </body>
