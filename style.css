@@ -7,15 +7,31 @@ body{
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  color: #e0afa0;
+  color: #b98b73;
 }
 h2, h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-  color: #8a817c;
+  color: #cb997e;
 }
 a{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: #e0afa0;
+  color: #6b705c;
 } 
+aside{
+  width: 30%;
+  float: right;
+  margin: 25px;
+  background-color: #a5a58d;
+  padding: 15px 25px;
+}
+blockquote{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  border-top: 1px; 
+  border-bottom: 1px;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
