@@ -39,7 +39,8 @@ aside a{
   color:white;
 }
 .oakley{
-  width: 30%;
+  width: 300px;
+  height: auto;
   float: right;
   margin: 25px;
   background-color: #a5a58d;
