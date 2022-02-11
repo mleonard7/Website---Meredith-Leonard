@@ -35,3 +35,21 @@ blockquote{
   margin: 20px 20px 20px 20px;
   padding: 10px 10px 10px 10px;
 }
+aside a{
+  color:white;
+}
+.oakley{
+  width: 30%;
+  float: right;
+  margin: 25px;
+  background-color: #a5a58d;
+  padding: 15px 25px;
+ }
+@media (max-width: 767px) 
+{ aside{
+  width: 100%;
+  float: none;
+  margin: 0px;
+  background-color: #a5a58d;
+  padding: 5px;
+}}
