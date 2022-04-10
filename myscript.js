@@ -50,7 +50,7 @@ $(document).ready(function(){
         }
       });
       
-      var form_submit = $.post("https://formspree.io/f/mqkwawqv", toSubmit);
+      var form_submit = $.post("https://formspree.io/f/moqrkjjj", toSubmit);
       
       form_submit.done(function(){
         $("#form-success").modal('show');
