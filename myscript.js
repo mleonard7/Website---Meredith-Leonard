@@ -37,32 +37,44 @@ $(document).ready(function (){
 
 });
 
-$(document).ready(function(){
-    $("form").submit(function(){
-      event.preventDefault();
-      var toSubmit = {};
-      toSubmit.email = $("#email").val();
-      toSubmit.name = $("#name").val();
-      toSubmit.message = $("#message").val();
-      $.ajaxSetup({
-        headers: {
-          'Accept': "application/json",
-        }
-      });
-      
-      var form_submit = $.post("https://formspree.io/f/moqrkjjj", toSubmit);
-      
-      form_submit.done(function(){
-        $("#form-success").modal('show');
-        $("#email").val("");
-        $("#name").val("");
-        $("#message").val("");
-      });
-      
-      form_submit.fail(function(){
-        $("#form-error").modal('show');
-      });
-      
-      
-    })
+$(document).ready (function(){
+  $("form") .submit(function(){
+    event.preventDefault();
+    if($("#email" ).val().length===0){
+      alert ("Email is required!");
+      return;
+    }
+     if($("#name").val().length===0){
+      alert ("Name is required!");
+      return;
+    }
+     if($("#message").val().length===0){
+      alert ("Message is required!");
+      return;
+      }
+    var toSubmit = {};
+    toSubmit.email = $("#email").val();
+    toSubmit.name = $("#name").val();
+    toSubmit.message = $("#message").val();
+    
+    $.ajaxSetup({
+      headers: {
+        'Accept': "application/json", 
+      }
+    });
+    
+    var form_submit = $.post("https://formspree.io/f/moqrkjjj", toSubmit);
+    
+    form_submit.done(function (){
+      alert("Your email has been sent!");
+      $("email").val("");
+      $("name").val("");
+      $("message").val("");
+    });
+    
+    form_submit.fail(function(){
+      alert("Error! Your email was not sent!")
+    });
+    
+    });
   });
