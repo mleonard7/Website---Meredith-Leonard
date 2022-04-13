@@ -63,7 +63,7 @@ $(document).ready (function(){
       }
     });
     
-    var form_submit = $.post("https://formspree.io/f/moqrkjjj", toSubmit);
+    var form_submit = $.post("https://formspree.io/f/xeqnrkeq", toSubmit);
     
     form_submit.done(function (){
       alert("Your email has been sent!");
