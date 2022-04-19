@@ -52,3 +52,6 @@ aside a{
 .hidden{
   display: none;
 }
+btn btn-primary{
+  background-color: #F0E7E0;
+}
