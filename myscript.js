@@ -67,9 +67,9 @@ $(document).ready (function(){
     
     form_submit.done(function (){
       alert("Your email has been sent!");
-      $("email").val("");
-      $("name").val("");
-      $("message").val("");
+      $("#email").val("");
+      $("#name").val("");
+      $("#message").val("");
     });
     
     form_submit.fail(function(){
