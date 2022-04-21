@@ -1,57 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-body{
-  font-family: 'Montserrat', sans-serif;
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  color: #8C524E;
-}
-h2, h3{
-  font-family: 'Montserrat', sans-serif;
-  color: #8C524E;
-}
-a{
-  font-family: 'Montserrat', sans-serif;
-  color: #33595B;
-} 
-aside{
-  width: 30%;
-  float: right;
-  margin: 25px;
-  background-color: #F0E7E0;
-  padding: 15px 25px;
-}
-blockquote{
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 35px;
-  border-top: 1px; 
-  border-bottom: 1px;
-  margin: 20px 20px 20px 20px;
-  padding: 10px 10px 10px 10px;
-}
-aside a{
-  color: #33595B;
-}
-.oakley{
-  width: 300px;
-  height: auto;
-  float: right;
-  margin: 25px;
-  background-color: #F0E7E0;
-  padding: 15px 25px;
- }
-@media (max-width: 767px) 
-{ aside{
-  width: 100%;
-  float: none;
-  margin: 0px;
-  background-color: #b7b7a4;
-  padding: 5px;
-}}
-.hidden{
-  display: none;
-}
-btn btn-primary{
-  background-color: #F0E7E0;
-}
+      body{
+            font-family: 'Montserrat', sans-serif;
+      }
+      h1{
+            font-family: 'Montserrat', sans-serif;
+            color: #8C524E;
+      }
+      h2, h3{
+            font-family: 'Montserrat', sans-serif;
+            color: #8C524E;
+      }
+      a{
+            font-family: 'Montserrat', sans-serif;
+            color: #33595B;
+      } 
+      aside{
+            width: 30%;
+            float: right;
+            margin: 25px;
+            background-color: #F0E7E0;
+            padding: 15px 25px;
+      }
+      blockquote{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            border-top: 1px; 
+            border-bottom: 1px;
+            margin: 20px 20px 20px 20px;
+            padding: 10px 10px 10px 10px;
+      }
+      aside a{
+            color: #33595B;
+      }
+      .oakley{
+            width: 300px;
+            height: auto;
+            float: right;
+            margin: 25px;
+            background-color: #F0E7E0;
+            padding: 15px 25px;
+      }
+      @media (max-width: 767px) 
+      { aside{
+            width: 100%;
+            float: none;
+            margin: 0px;
+            background-color: #b7b7a4;
+            padding: 5px;
+      }}
+      .hidden{
+            display: none;
+      }
+      btn btn-primary{
+            background-color: #F0E7E0;
+      }
